@@ -5,148 +5,44 @@
 //    like 'source', 'spotlight', and 'rating' to power the advanced UI features.
 
 export const mockGames = [
-  // =================================================================
-  // === CLICKABLE FREE-TO-PLAY GAMES (Data from FreeToGame API) =====
-  // =================================================================
   {
-    id: 540,
-    title: "Overwatch 2",
-    thumbnail: "https://www.freetogame.com/g/540/thumbnail.jpg",
-    genre: "Shooter",
-  },
-  {
-    id: 517,
-    title: "Lost Ark",
-    thumbnail: "https://www.freetogame.com/g/517/thumbnail.jpg",
-    genre: "ARPG",
-  },
-  {
-    id: 475,
-    title: "Genshin Impact",
-    thumbnail: "https://www.freetogame.com/g/475/thumbnail.jpg",
-    genre: "Action RPG",
-  },
-  {
-    id: 521,
-    title: "Diablo Immortal",
-    thumbnail: "https://www.freetogame.com/g/521/thumbnail.jpg",
-    genre: "ARPG",
-  },
-  {
-    id: 452,
-    title: "Call of Duty: Warzone",
-    thumbnail: "https://www.freetogame.com/g/452/thumbnail.jpg",
-    genre: "Shooter",
-  },
-  {
-    id: 23,
-    title: "Warframe",
-    thumbnail: "https://www.freetogame.com/g/23/thumbnail.jpg",
-    genre: "Looter-Shooter",
-  },
-  {
-    id: 12,
-    title: "Star Wars: The Old Republic",
-    thumbnail: "https://www.freetogame.com/g/12/thumbnail.jpg",
-    genre: "MMORPG",
-  },
-  {
-    id: 2,
-    title: "Hearthstone",
-    thumbnail: "https://www.freetogame.com/g/2/thumbnail.jpg",
-    genre: "Card Game",
-  },
-  {
-    id: 466,
-    title: "Rocket League",
-    thumbnail: "https://www.freetogame.com/g/466/thumbnail.jpg",
-    genre: "Sports",
-  },
-  {
-    id: 525,
-    title: "Fall Guys",
-    thumbnail: "https://www.freetogame.com/g/525/thumbnail.jpg",
-    genre: "Party Game",
-  },
-  {
-    id: 345,
-    title: "Path of Exile",
-    thumbnail: "https://www.freetogame.com/g/345/thumbnail.jpg",
-    genre: "ARPG",
-  },
-  {
-    id: 21,
-    title: "Destiny 2",
-    thumbnail: "https://www.freetogame.com/g/21/thumbnail.jpg",
-    genre: "Shooter",
-  },
-
-  // =================================================================
-  // === PREMIUM "AAA" TITLES (With REAL Steam AppIDs and Ratings) ===
-  // =================================================================
-  {
-    id: 1091500,
+    id: 271590,
     source: 'steam',
-    title: "Cyberpunk 2077",
-    thumbnail: "https://cdn.mobygames.com/covers/5193333-cyberpunk-2077-playstation-4-front-cover.jpg",
-    genre: "Action RPG",
-    spotlight: true, // This will be our featured game
-    rating: 86,
-  },
-  {
-    id: 1174180,
-    source: 'steam',
-    title: "Red Dead Redemption 2",
-    thumbnail: "https://cdn.mobygames.com/covers/4862900-red-dead-redemption-2-xbox-one-front-cover.jpg",
+    title: "Grand Theft Auto V",
+    thumbnail: "https://img.goodfon.com/wallpaper/big/b/15/grand-theft-auto-v-gta-gta-5.webp",
     genre: "Action-Adventure",
-    rating: 97,
-  },
-  {
-    id: 292030,
-    source: 'steam',
-    title: "The Witcher 3: Wild Hunt",
-    thumbnail: "https://cdn.mobygames.com/covers/2924376-the-witcher-3-wild-hunt-windows-front-cover.jpg",
-    genre: "Action RPG",
-    rating: 92,
-  },
-  {
-    id: 1593500,
-    source: 'steam',
-    title: "God of War",
-    thumbnail: "https://cdn.mobygames.com/covers/4207161-god-of-war-playstation-4-front-cover.jpg",
-    genre: "Action-Adventure",
-    rating: 94,
-  },
-  {
-    id: 1245620,
-    source: 'steam',
-    title: "ELDEN RING",
-    thumbnail: "https://cdn.mobygames.com/covers/5938953-elden-ring-playstation-5-front-cover.jpg",
-    genre: "Souls-like RPG",
-    rating: 94,
-  },
-  {
-    id: 1888930,
-    source: 'steam',
-    title: "The Last of Us Part I",
-    thumbnail: "https://cdn.mobygames.com/covers/6249257-the-last-of-us-part-i-playstation-5-front-cover.jpg",
-    genre: "Action-Adventure",
-    rating: 88,
-  },
-  {
-    id: 1086940,
-    source: 'steam',
-    title: "Baldur's Gate 3",
-    thumbnail: "https://cdn.mobygames.com/covers/8741355-baldurs-gate-3-windows-apps-front-cover.jpg",
-    genre: "CRPG",
     rating: 96,
   },
   {
-    id: 24980,
+    id: 2000950,
     source: 'steam',
-    title: "Mass Effect 2",
-    thumbnail: "https://cdn.mobygames.com/covers/1247475-mass-effect-2-xbox-360-front-cover.jpg",
-    genre: "Sci-Fi RPG",
-    rating: 94,
+    title: "Call of Duty: Modern Warfare",
+    thumbnail: "https://i.ytimg.com/vi/zu3wZ-_IKrM/maxresdefault.jpg",
+    genre: "Shooter",
+    rating: 85,
+  },
+  {
+    id: 1030840,
+    source: 'steam',
+    title: "Mafia: Definitive Edition",
+    thumbnail: "https://images.ctfassets.net/wn7ipiv9ue5v/54i8ryAOOAtErmmuzt1GFb/5af254f5e87049b13c23b51032fa3102/2KGMKT_MAFIA1DE_D2C_Hero_3840x2160.jpg",
+    genre: "Action-Adventure",
+    rating: 80,
+  },
+  {
+    id: 1238810,
+    source: 'steam',
+    title: "Battlefield V",
+    thumbnail: "https://img.goodfon.com/wallpaper/big/b/40/battlefield-v-definitive-edition-definitive-edition-battlefi.webp",
+    genre: "Shooter",
+    rating: 81,
+  },
+  {
+    id: 582160,
+    source: 'steam',
+    title: "Assassin's Creed Origins",
+    thumbnail: "https://store-images.s-microsoft.com/image/apps.51508.63657969076271726.154f5a09-55ab-4b31-bc57-4e0335fab06a.8c56d9de-b95f-4f50-931b-818bc7d5711c?h=862&format=jpg",
+    genre: "Action-Adventure",
+    rating: 85,
   },
 ];

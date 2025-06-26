@@ -125,8 +125,8 @@ const HomePage = () => {
       <HeroSection>
         <HeroOverlay />
         <HeroContent>
-          <HeroTitle>Galactic Gaming</HeroTitle>
-          <HeroSubtitle>Your definitive gateway to the universe of gaming. Explore real-time data on hundreds of titles.</HeroSubtitle>
+          <HeroTitle>GhostMark Gaming</HeroTitle>
+          <HeroSubtitle>This isn't about noise. It's about the unseen strike, the perfect vanish. GhostMark Gaming chronicles the art of near-flawless execution: navigating danger, leaving no trace, enduring next to zero damage. If strategic mastery and the silent takedown captivate you, welcome home. Witness the shadow dance.</HeroSubtitle>
         </HeroContent>
         <HologramContainer>
           {/* --- THE FIX: Wrap HologramModel in a Canvas --- */}
@@ -164,7 +164,7 @@ const HomePage = () => {
       </LibrarySection>
       
       <LibrarySection>
-        <h2>Hall of Fame (Premium Titles)</h2>
+        <h2>Current GhostMarks</h2>
          <GameGrid>
             {hallOfFameGames.map(game => (
               <GameCard key={game.id} game={game} />
