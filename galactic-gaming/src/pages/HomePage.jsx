@@ -3,13 +3,10 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { getGames } from '../api/freetogame';
 import { mockGames } from '../api/mockData';
-
-// We need to import Canvas here
 import { Canvas } from '@react-three/fiber'; 
 import HologramModel from '../components/HologramModel';
 import GameCard from '../components/GameCard';
 
-// --- Styled Components (No changes here) ---
 const PageWrapper = styled(motion.div)``;
 const HeroSection = styled.div`
   height: 60vh;
@@ -129,7 +126,6 @@ const HomePage = () => {
           <HeroSubtitle>This isn't about noise. It's about the unseen strike, the perfect vanish. GhostMark Gaming chronicles the art of near-flawless execution: navigating danger, leaving no trace, enduring next to zero damage. If strategic mastery and the silent takedown captivate you, welcome home. Witness the shadow dance.</HeroSubtitle>
         </HeroContent>
         <HologramContainer>
-          {/* --- THE FIX: Wrap HologramModel in a Canvas --- */}
           <Canvas camera={{ position: [0, 0, 5], fov: 60 }}>
             <ambientLight intensity={0.5} />
             <directionalLight position={[5, 5, 5]} />

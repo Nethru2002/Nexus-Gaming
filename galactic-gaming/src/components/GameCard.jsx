@@ -18,7 +18,6 @@ const CardWrapper = styled(motion.div)`
   }
 `;
 
-// --- MISSING DEFINITIONS ARE NOW ADDED ---
 const CardImage = styled.img`
   width: 100%;
   height: 100%;
@@ -46,7 +45,6 @@ const CardTitle = styled.h3`
   font-family: 'Roboto', sans-serif; /* Use the more readable font */
   font-weight: 700;
 `;
-// --- END OF ADDED DEFINITIONS ---
 
 const GameCard = ({ game }) => {
   return (

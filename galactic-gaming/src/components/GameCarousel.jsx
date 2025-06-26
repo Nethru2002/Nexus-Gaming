@@ -23,7 +23,6 @@ const ScrollableRow = styled.div`
   scrollbar-width: none;
 `;
 
-// This component is now guaranteed to receive and pass down onGameHover.
 const GameCarousel = ({ title, games, onGameHover }) => {
   return (
     <CarouselContainer>
@@ -33,7 +32,7 @@ const GameCarousel = ({ title, games, onGameHover }) => {
           <GameCard 
             key={game.id} 
             game={game} 
-            onGameHover={onGameHover} // Crucial: onGameHover is passed down to each card.
+            onGameHover={onGameHover} 
           />
         ))}
       </ScrollableRow>

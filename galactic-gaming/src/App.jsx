@@ -5,8 +5,8 @@ import ParticleBackground from './components/ParticleBackground';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import GameDetailPage from './pages/GameDetailPage';
-import TrendingPage from './pages/TrendingPage'; // This import is now correct
-import UpcomingPage from './pages/UpcomingPage';   // This import is now correct
+import TrendingPage from './pages/TrendingPage'; 
+import UpcomingPage from './pages/UpcomingPage';  
 
 const router = createBrowserRouter([
   {

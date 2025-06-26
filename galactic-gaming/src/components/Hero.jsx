@@ -7,7 +7,6 @@ import { EffectComposer, Bloom, Scanline, Noise } from '@react-three/postprocess
 
 import { HologramModel } from './HologramModel';
 
-// --- STYLED COMPONENT FIXES ---
 const HeroContainer = styled.div`
   height: 70vh;
   width: 100%;
@@ -25,7 +24,6 @@ const CanvasContainer = styled.div`
   height: 100%;
 `;
 
-// Correctly center the text over the canvas
 const TitleWrapper = styled(motion.div)`
   position: absolute;
   top: 50%;
@@ -60,7 +58,6 @@ const titleItemVariants = {
   hidden: { y: 20, opacity: 0 },
   visible: { y: 0, opacity: 1, transition: { duration: 0.8, ease: 'easeOut' } },
 };
-// --- END OF STYLED COMPONENT FIXES ---
 
 const Hero = () => {
   return (
@@ -74,7 +71,6 @@ const Hero = () => {
 
           <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
 
-          {/* SIMPLIFIED: Render the model directly. It will handle its own interaction. */}
           <Suspense fallback={null}>
             <HologramModel />
           </Suspense>

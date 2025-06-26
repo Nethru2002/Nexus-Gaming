@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import styled from 'styled-components';
-import Header from './Header'; // Use the new Header
+import Header from './Header'; 
 
 const AppContainer = styled.div`
   display: flex;
